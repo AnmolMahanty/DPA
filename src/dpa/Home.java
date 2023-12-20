@@ -40,6 +40,7 @@ public class Home extends javax.swing.JFrame {
 
         home_bnt_grp.add(jToggleButton1);
         jToggleButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jToggleButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dpa/img/customer.png"))); // NOI18N
         jToggleButton1.setText("Customers");
         jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -49,6 +50,7 @@ public class Home extends javax.swing.JFrame {
 
         home_bnt_grp.add(jToggleButton2);
         jToggleButton2.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jToggleButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dpa/img/supplier.png"))); // NOI18N
         jToggleButton2.setText("Supplier");
         jToggleButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,6 +60,7 @@ public class Home extends javax.swing.JFrame {
 
         home_bnt_grp.add(jToggleButton3);
         jToggleButton3.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jToggleButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dpa/img/product.png"))); // NOI18N
         jToggleButton3.setText("Product");
         jToggleButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -67,6 +70,7 @@ public class Home extends javax.swing.JFrame {
 
         home_bnt_grp.add(jToggleButton4);
         jToggleButton4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jToggleButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dpa/img/emp.png"))); // NOI18N
         jToggleButton4.setText("Employee");
         jToggleButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -77,17 +81,25 @@ public class Home extends javax.swing.JFrame {
         home_bnt_grp.add(jToggleButton5);
         jToggleButton5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jToggleButton5.setText("Customers");
+        jToggleButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton5ActionPerformed(evt);
+            }
+        });
 
         home_bnt_grp.add(jToggleButton6);
         jToggleButton6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jToggleButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dpa/img/reports.png"))); // NOI18N
         jToggleButton6.setText("Reports");
 
         home_bnt_grp.add(jToggleButton7);
         jToggleButton7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jToggleButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dpa/img/invo.png"))); // NOI18N
         jToggleButton7.setText("Invoice");
 
         home_bnt_grp.add(jToggleButton8);
         jToggleButton8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jToggleButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dpa/img/sales_menu.png"))); // NOI18N
         jToggleButton8.setText("Sales");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -214,6 +226,10 @@ public class Home extends javax.swing.JFrame {
         
         
     }//GEN-LAST:event_jToggleButton3ActionPerformed
+
+    private void jToggleButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jToggleButton5ActionPerformed
 
     /**
      * @param args the command line arguments
