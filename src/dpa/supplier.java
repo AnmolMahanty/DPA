@@ -8,12 +8,12 @@ package dpa;
  *
  * @author Administrator
  */
-public class customer extends javax.swing.JPanel {
+public class supplier extends javax.swing.JPanel {
 
     /**
      * Creates new form customer
      */
-    public customer() {
+    public supplier() {
         initComponents();
     }
 
@@ -147,7 +147,7 @@ public class customer extends javax.swing.JPanel {
                 {null, null, null}
             },
             new String [] {
-                "ID", "Customer Name", "T.P Number"
+                "ID", "Supplier Name", "T.P Number"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
@@ -161,7 +161,7 @@ public class customer extends javax.swing.JPanel {
         jTextField3.setText("0");
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel4.setText("Customer's Info:");
+        jLabel4.setText("Supplier's Info:");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
