@@ -203,7 +203,7 @@ public class supplier extends javax.swing.JPanel {
                 {null, null, null}
             },
             new String [] {
-                "ID", "Customer Name", "T.P Number"
+                "ID", "Supplier Name", "T.P Number"
             }
         ));
         jTable1.addMouseListener(new java.awt.event.MouseAdapter() {
