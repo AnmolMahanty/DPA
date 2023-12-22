@@ -103,6 +103,11 @@ public class Home extends javax.swing.JFrame {
         jToggleButton8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jToggleButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dpa/img/sales_menu.png"))); // NOI18N
         jToggleButton8.setText("Sales");
+        jToggleButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton8ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -244,6 +249,12 @@ public class Home extends javax.swing.JFrame {
     private void jToggleButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton5ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jToggleButton5ActionPerformed
+
+    private void jToggleButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton8ActionPerformed
+        // sale load
+        sale sl =new sale();
+        jpload.jPanelLoader(panel_load,sl);
+    }//GEN-LAST:event_jToggleButton8ActionPerformed
 
     /**
      * @param args the command line arguments
