@@ -1,6 +1,10 @@
 
 package dpa;
 
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 
 public class Home extends javax.swing.JFrame {
 
@@ -98,6 +102,11 @@ public class Home extends javax.swing.JFrame {
         jToggleButton7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jToggleButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dpa/img/invo.png"))); // NOI18N
         jToggleButton7.setText("Invoice");
+        jToggleButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton7ActionPerformed(evt);
+            }
+        });
 
         home_bnt_grp.add(jToggleButton8);
         jToggleButton8.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -255,6 +264,17 @@ public class Home extends javax.swing.JFrame {
         sale sl =new sale();
         jpload.jPanelLoader(panel_load,sl);
     }//GEN-LAST:event_jToggleButton8ActionPerformed
+
+    private void jToggleButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton7ActionPerformed
+        // invoice load
+        Invoice inv=null;
+       try {
+           inv = new Invoice();
+       } catch (SQLException ex) {
+           Logger.getLogger(Home.class.getName()).log(Level.SEVERE, null, ex);
+       }
+        jpload.jPanelLoader(panel_load,inv);
+    }//GEN-LAST:event_jToggleButton7ActionPerformed
 
     /**
      * @param args the command line arguments
