@@ -19,6 +19,7 @@ public class Register extends javax.swing.JFrame {
     PreparedStatement pst = null;
     public Register() {
         initComponents();
+        setLocation(450, 150);//registeration
         con = db.mycon();
     }
 

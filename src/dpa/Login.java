@@ -17,6 +17,7 @@ public class Login extends javax.swing.JFrame {
     PreparedStatement pst = null;
     public Login() {
         initComponents();
+        setLocation(450, 200);//login 
         
         con = db.mycon();
         
