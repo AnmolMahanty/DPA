@@ -76,11 +76,11 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToggleButton4" min="-2" pref="180" max="-2" attributes="0"/>
                       <Component id="jToggleButton7" min="-2" pref="180" max="-2" attributes="0"/>
                       <Component id="jToggleButton5" min="-2" pref="180" max="-2" attributes="0"/>
-                      <Component id="jToggleButton8" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
+                      <Component id="jToggleButton8" min="-2" pref="180" max="-2" attributes="0"/>
                       <Component id="jToggleButton3" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
-                      <Component id="jToggleButton4" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
                       <Component id="jToggleButton2" alignment="0" min="-2" pref="180" max="-2" attributes="0"/>
                       <Component id="jToggleButton1" min="-2" pref="180" max="-2" attributes="0"/>
                   </Group>
@@ -91,21 +91,21 @@
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
                   <Component id="jToggleButton1" min="-2" pref="32" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-                  <Component id="jToggleButton2" min="-2" pref="32" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
-                  <Component id="jToggleButton4" min="-2" pref="32" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="jToggleButton2" min="-2" pref="32" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
                   <Component id="jToggleButton3" min="-2" pref="32" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
                   <Component id="jToggleButton8" min="-2" pref="32" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
-                  <Component id="jToggleButton7" min="-2" pref="32" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                   <Component id="jToggleButton5" min="-2" pref="32" max="-2" attributes="0"/>
-                  <EmptySpace pref="39" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="jToggleButton7" min="-2" pref="32" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="jToggleButton4" min="-2" pref="32" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -162,7 +162,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton3ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JToggleButton" name="jToggleButton4">
+        <Component class="javax.swing.JToggleButton" name="jToggleButton8">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="home_bnt_grp"/>
@@ -171,12 +171,12 @@
               <Font name="Sitka Banner" size="24" style="3"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/dpa/img/emp.png"/>
+              <Image iconType="3" name="/dpa/img/invo.png"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Employee"/>
+            <Property name="text" type="java.lang.String" value="Invoice/Bill"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton4ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton8ActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JToggleButton" name="jToggleButton5">
@@ -213,7 +213,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton7ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JToggleButton" name="jToggleButton8">
+        <Component class="javax.swing.JToggleButton" name="jToggleButton4">
           <Properties>
             <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
               <ComponentRef name="home_bnt_grp"/>
@@ -222,12 +222,12 @@
               <Font name="Sitka Banner" size="24" style="3"/>
             </Property>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/dpa/img/invo.png"/>
+              <Image iconType="3" name="/dpa/img/emp.png"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Invoice/Bill"/>
+            <Property name="text" type="java.lang.String" value="Employee"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton8ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton4ActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
@@ -295,12 +295,12 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="973" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="533" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
       </Layout>
