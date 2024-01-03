@@ -224,13 +224,15 @@ public class Invoice extends javax.swing.JPanel {
         jLabel10 = new javax.swing.JLabel();
         tot_qty = new javax.swing.JTextField();
 
-        jPanel1.setBackground(new java.awt.Color(153, 0, 51));
+        setBackground(new java.awt.Color(0, 204, 0));
 
-        jPanel2.setBackground(new java.awt.Color(153, 0, 51));
+        jPanel1.setBackground(new java.awt.Color(0, 204, 0));
+
+        jPanel2.setBackground(new java.awt.Color(0, 204, 0));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
+        jLabel1.setBackground(new java.awt.Color(0, 204, 0));
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("INVOICE NO:");
 
         inid.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -258,23 +260,23 @@ public class Invoice extends javax.swing.JPanel {
                 .addContainerGap(28, Short.MAX_VALUE))
         );
 
-        jPanel18.setBackground(new java.awt.Color(153, 0, 51));
+        jPanel18.setBackground(new java.awt.Color(0, 204, 0));
         jPanel18.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
+        jLabel3.setBackground(new java.awt.Color(0, 204, 0));
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Customer :");
 
+        jLabel4.setBackground(new java.awt.Color(0, 204, 0));
         jLabel4.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Qty :");
 
+        jLabel5.setBackground(new java.awt.Color(0, 204, 0));
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Product :");
 
+        jLabel6.setBackground(new java.awt.Color(0, 204, 0));
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Unit Price :");
 
         com_pro.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -313,16 +315,16 @@ public class Invoice extends javax.swing.JPanel {
             }
         });
 
+        jLabel7.setBackground(new java.awt.Color(0, 204, 0));
         jLabel7.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Total price :");
 
+        br_code1.setBackground(new java.awt.Color(0, 204, 0));
         br_code1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        br_code1.setForeground(new java.awt.Color(255, 255, 255));
         br_code1.setText("Barcode :");
 
+        jLabel12.setBackground(new java.awt.Color(0, 204, 0));
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel12.setForeground(new java.awt.Color(255, 255, 255));
         jLabel12.setText("Stock Qty:");
 
         u_price.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -426,7 +428,7 @@ public class Invoice extends javax.swing.JPanel {
 
         jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jTable1.setBackground(new java.awt.Color(153, 0, 51));
+        jTable1.setBackground(new java.awt.Color(0, 204, 0));
         jTable1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jTable1.setForeground(new java.awt.Color(255, 255, 255));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -450,7 +452,7 @@ public class Invoice extends javax.swing.JPanel {
             .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 206, Short.MAX_VALUE)
         );
 
-        jPanel5.setBackground(new java.awt.Color(153, 0, 51));
+        jPanel5.setBackground(new java.awt.Color(0, 204, 0));
         jPanel5.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jButton1.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
@@ -514,11 +516,11 @@ public class Invoice extends javax.swing.JPanel {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel6.setBackground(new java.awt.Color(153, 0, 51));
+        jPanel6.setBackground(new java.awt.Color(0, 204, 0));
         jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
+        jLabel8.setBackground(new java.awt.Color(0, 204, 0));
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Paid Amount :");
 
         paid_amt.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -529,28 +531,26 @@ public class Invoice extends javax.swing.JPanel {
             }
         });
 
-        jPanel7.setBackground(new java.awt.Color(153, 0, 51));
+        jPanel7.setBackground(new java.awt.Color(0, 204, 0));
         jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
+        jLabel9.setBackground(new java.awt.Color(0, 204, 0));
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel9.setText("Total Amount :");
 
+        bill_tot.setBackground(new java.awt.Color(0, 204, 0));
         bill_tot.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        bill_tot.setForeground(new java.awt.Color(255, 255, 255));
         bill_tot.setText("00.00");
         bill_tot.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jLabel11.setBackground(new java.awt.Color(255, 51, 51));
+        jLabel11.setBackground(new java.awt.Color(0, 204, 0));
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
         jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         jLabel11.setText("Balance/Due :");
 
-        balance.setBackground(new java.awt.Color(255, 153, 153));
+        balance.setBackground(new java.awt.Color(0, 204, 0));
         balance.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        balance.setForeground(new java.awt.Color(255, 255, 255));
         balance.setText("00.00");
         balance.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
@@ -583,8 +583,8 @@ public class Invoice extends javax.swing.JPanel {
                 .addContainerGap(36, Short.MAX_VALUE))
         );
 
+        jLabel10.setBackground(new java.awt.Color(0, 204, 0));
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Tot Qty :");
 
         tot_qty.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
