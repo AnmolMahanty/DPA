@@ -145,7 +145,7 @@ public void  tb_load(){
                 .addContainerGap())
         );
 
-        jPanel3.setBackground(new java.awt.Color(153, 0, 51));
+        jPanel3.setBackground(new java.awt.Color(0, 204, 0));
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         cus_name.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
