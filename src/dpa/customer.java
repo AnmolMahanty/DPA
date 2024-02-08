@@ -91,13 +91,15 @@ public class customer extends javax.swing.JPanel {
         c_search = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(0, 204, 0));
+        setBackground(new java.awt.Color(0, 102, 102));
         setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel6.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Search in Table:");
 
         jLabel5.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Enter Name:");
 
         c_search_tb.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -108,6 +110,7 @@ public class customer extends javax.swing.JPanel {
             }
         });
 
+        jTable1.setBackground(new java.awt.Color(0, 102, 102));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},
@@ -126,13 +129,15 @@ public class customer extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        jPanel2.setBackground(new java.awt.Color(0, 204, 0));
+        jPanel2.setBackground(new java.awt.Color(0, 102, 102));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel1.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Name:");
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("T.P Number:");
 
         c_name.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -232,16 +237,18 @@ public class customer extends javax.swing.JPanel {
 
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dpa/img/5.jpeg"))); // NOI18N
 
-        jPanel3.setBackground(new java.awt.Color(0, 204, 0));
+        jPanel3.setBackground(new java.awt.Color(0, 102, 102));
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel3.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Search ID:");
 
         c_search.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         c_search.setText("0");
 
         jLabel4.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Customer's Info:");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);

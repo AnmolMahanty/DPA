@@ -92,20 +92,22 @@ public void  tb_load(){
         jLabel9 = new javax.swing.JLabel();
         jButton5 = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(0, 204, 0));
+        setBackground(new java.awt.Color(0, 102, 102));
         setForeground(new java.awt.Color(255, 255, 255));
 
-        jPanel1.setBackground(new java.awt.Color(0, 204, 0));
+        jPanel1.setBackground(new java.awt.Color(0, 102, 102));
         jPanel1.setForeground(new java.awt.Color(255, 255, 255));
 
-        jPanel2.setBackground(new java.awt.Color(0, 204, 0));
+        jPanel2.setBackground(new java.awt.Color(0, 102, 102));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel2.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel1.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Name:");
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Bar Code:");
 
         p_name.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -151,18 +153,21 @@ public void  tb_load(){
         });
 
         jLabel5.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Price:");
 
         p_price.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         p_price.setText("0");
 
         jLabel6.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Supplier Name:");
 
         P_supplier.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         P_supplier.setText("0");
 
         jLabel7.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
         jLabel7.setText("Qty:");
 
         p_Qty.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
@@ -261,17 +266,19 @@ public void  tb_load(){
         });
         jScrollPane1.setViewportView(jTable1);
 
-        jPanel3.setBackground(new java.awt.Color(0, 204, 0));
+        jPanel3.setBackground(new java.awt.Color(0, 102, 102));
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel3.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel3.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Search Barcode:");
 
         p_search.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         p_search.setText("0");
 
         jLabel4.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Product's Info:");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
@@ -314,9 +321,11 @@ public void  tb_load(){
         });
 
         jLabel8.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
         jLabel8.setText("Product name:");
 
         jLabel9.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("Search product in table:");
 
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/dpa/img/6.jpeg"))); // NOI18N

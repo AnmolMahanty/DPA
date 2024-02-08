@@ -145,7 +145,7 @@ public void  tb_load(){
                 .addContainerGap())
         );
 
-        jPanel3.setBackground(new java.awt.Color(0, 204, 0));
+        jPanel3.setBackground(new java.awt.Color(0, 102, 102));
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         cus_name.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
@@ -161,11 +161,12 @@ public void  tb_load(){
             }
         });
 
+        jLabel5.setBackground(java.awt.Color.cyan);
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Customer Name :");
 
-        jLabel6.setBackground(new java.awt.Color(255, 255, 255));
+        jLabel6.setBackground(java.awt.Color.cyan);
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Status :");
