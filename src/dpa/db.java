@@ -21,7 +21,7 @@ public class db {
      try {
          
          Class.forName("com.mysql.jdbc.Driver");
-         con = DriverManager.getConnection("jdbc:mysql://localhost/dpa","root","Anmol14205");
+         con = DriverManager.getConnection("jdbc:mysql://localhost/dpa","root","");
          return con;
          
          
