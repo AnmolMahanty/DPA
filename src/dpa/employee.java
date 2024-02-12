@@ -211,7 +211,7 @@ public class employee extends javax.swing.JPanel {
                 {null, null, null}
             },
             new String [] {
-                "ID", "Customer Name", "T.P Number"
+                "ID", "Employee Name", "T.P Number"
             }
         ));
         jTable1.addMouseListener(new java.awt.event.MouseAdapter() {

@@ -46,7 +46,7 @@ public void  tb_load(){
                 v.add(rs.getString(5));
                 v.add(rs.getString(6));
                 v.add(rs.getString(7));
-                v.add(rs.getString(8));
+                
                 
                 dt.addRow(v);
              
@@ -85,7 +85,7 @@ public void  tb_load(){
               v.add(rs.getString(5));
               v.add(rs.getString(6));
               v.add(rs.getString(7));
-              v.add(rs.getString(8));
+              
              
               dt.addRow(v);
             }
@@ -121,13 +121,13 @@ public void  tb_load(){
         jTable1.setForeground(new java.awt.Color(153, 0, 51));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null}
             },
             new String [] {
-                "SaleID", "INID", "CID ", "Customer_Name ", "Total Qty ", "Total Bill", "Status ", "Balance "
+                "SaleID", "INID", "Customer_Name ", "Total Qty ", "Total Bill", "Status ", "Balance "
             }
         ));
         jScrollPane1.setViewportView(jTable1);
