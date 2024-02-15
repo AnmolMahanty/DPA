@@ -152,6 +152,11 @@ public class Login extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        jButton1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jButton1KeyPressed(evt);
+            }
+        });
 
         jLabel4.setText("I don't have an account");
 
@@ -283,6 +288,29 @@ public class Login extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButton1KeyPressed
+        // TODO add your handling code here:
+        String un = jname.getText();
+        String ps = jpass.getText();
+        
+           try{
+               java.sql.Statement s =db.mycon().createStatement();
+               ResultSet rs = s.executeQuery("SELECT * FROM user WHERE User_Name='"+un+"' AND Password='"+ps+"'");
+               
+               if(rs.next()){
+                JOptionPane.showMessageDialog(rootPane,"Your Login Success");
+                
+                new Home().setVisible(true);
+                new Login().disable();
+                
+                }else{
+                JOptionPane.showMessageDialog(rootPane,"Your Login Failed");
+                }
+               } catch (SQLException ex) {
+            Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
+               }
+    }//GEN-LAST:event_jButton1KeyPressed
 
 
 
