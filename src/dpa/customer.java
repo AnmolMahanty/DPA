@@ -94,7 +94,7 @@ public class customer extends javax.swing.JPanel {
         setBackground(new java.awt.Color(0, 102, 102));
         setForeground(new java.awt.Color(255, 255, 255));
 
-        jLabel6.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Sylfaen", 2, 22)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("Search in Table:");
 
@@ -111,6 +111,7 @@ public class customer extends javax.swing.JPanel {
         });
 
         jTable1.setBackground(new java.awt.Color(0, 102, 102));
+        jTable1.setForeground(new java.awt.Color(255, 255, 255));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null},
