@@ -91,6 +91,8 @@ public class Stock extends javax.swing.JPanel {
 
         setBackground(new java.awt.Color(0, 102, 102));
 
+        jTable1.setBackground(new java.awt.Color(0, 102, 102));
+        jTable1.setForeground(new java.awt.Color(255, 255, 255));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},

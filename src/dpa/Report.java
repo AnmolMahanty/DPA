@@ -41,11 +41,11 @@ public void  tb_load(){
                 
                 v.add(rs.getString(1));
                 v.add(rs.getString(2));
-                v.add(rs.getString(3));
                 v.add(rs.getString(4));
                 v.add(rs.getString(5));
                 v.add(rs.getString(6));
                 v.add(rs.getString(7));
+                v.add(rs.getString(8));
                 
                 
                 dt.addRow(v);
@@ -118,7 +118,8 @@ public void  tb_load(){
 
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jTable1.setForeground(new java.awt.Color(153, 0, 51));
+        jTable1.setBackground(new java.awt.Color(0, 102, 102));
+        jTable1.setForeground(new java.awt.Color(255, 255, 255));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null},
